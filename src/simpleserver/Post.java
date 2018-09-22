@@ -1,8 +1,10 @@
 package simpleserver;
 
+import com.google.gson.Gson;
+
 public class Post implements DataInterface{
-    private int postid;
-    private String data;
+    int postid;
+    String data;
 
     public int getId() {
         return postid;
@@ -11,4 +13,10 @@ public class Post implements DataInterface{
     public String getData() {
         return data;
     }
+
+    public String convertToJson() {
+        return new Gson().toJson(this);
+    }
+
 }
+
