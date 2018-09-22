@@ -1,6 +1,6 @@
 package simpleserver;
 
-public interface DataInterface {
+interface DataInterface {
     int getId();
     String getData();
 }
