@@ -3,9 +3,13 @@ package simpleserver;
 import com.google.gson.Gson;
 
 class User implements DataInterface {
-    int userid;
-    String username;
+    private int userid;
+    private String username;
 
+    public User(int gUserId, String gUsername){
+        this.userid = gUserId;
+        this.username = gUsername;
+    }
     public int getId() {
         return userid;
     }
