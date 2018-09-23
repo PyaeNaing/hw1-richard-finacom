@@ -9,7 +9,7 @@ public class Request {
 
     public String getEndpoint()
     {
-        return this.Endpoint;
+        return this.endpoint;
     }
     public int getID()
     {
