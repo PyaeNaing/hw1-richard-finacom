@@ -6,6 +6,10 @@ public class Post extends Processor implements DataInterface{
     private int postid;
     private String post;
 
+    public Post() {
+        this.post = "";
+        this.postid = -1;
+    }
     public Post(int gPostId, String gPost){
         this.postid = gPostId;
         this.post = gPost;
@@ -14,6 +18,7 @@ public class Post extends Processor implements DataInterface{
     public Post(String request) {
         super(request);
     }
+
     public int getId() {
         return postid;
     }
