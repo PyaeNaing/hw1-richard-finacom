@@ -5,7 +5,7 @@ import com.google.gson.*;
 public class Response {
    private String status;
     private int entries;
-    private DataInterface data;
+    private DataInterface[] data;
 
     String convertToJson() {
         return new Gson().toJson(this);
@@ -19,7 +19,7 @@ public class Response {
         this.entries = newEntries;
     }
 
-    public void setData(DataInterface newData) {
+    public void setData(DataInterface[] newData) {
         this.data = newData;
     }
 
