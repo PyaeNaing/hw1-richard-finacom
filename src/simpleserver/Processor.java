@@ -14,9 +14,9 @@ class ProcessorFactory {
     public static Processor makeProcessor(String request) {
         switch (request) {
             case "users":
-                return new UserProcessor(request);
+                return new User(request);
             case "posts":
-                return new PostProcessor(request);
+                return new Post(request);
         }
         return null;
     }

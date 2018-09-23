@@ -2,7 +2,7 @@ package simpleserver;
 
 import com.google.gson.Gson;
 
-public class Post implements DataInterface{
+public class Post extends Processor implements DataInterface{
     private int postid;
     private String post;
 
@@ -11,6 +11,9 @@ public class Post implements DataInterface{
         this.post = gPost;
     }
 
+    public Post(String request) {
+        super(request);
+    }
     public int getId() {
         return postid;
     }

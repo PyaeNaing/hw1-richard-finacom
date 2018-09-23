@@ -2,13 +2,16 @@ package simpleserver;
 
 import com.google.gson.Gson;
 
-class User implements DataInterface {
+class User extends Processor implements DataInterface {
     private int userid;
     private String username;
 
     public User(int gUserId, String gUsername){
         this.userid = gUserId;
         this.username = gUsername;
+    }
+    public User(String request) {
+        super(request);
     }
     public int getId() {
         return userid;
