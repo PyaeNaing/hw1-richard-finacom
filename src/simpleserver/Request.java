@@ -28,5 +28,4 @@ public class Request {
     {
         String [] splitted = request.split(" ");
     }
-
 }
