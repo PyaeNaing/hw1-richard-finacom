@@ -1,299 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fcbeaf3-41cb-42f9-92fa-e8fb421d8a10" name="Default" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/User.java" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simpleserver/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/User.java" afterDir="false" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-    </list>
+    <list default="true" id="3fcbeaf3-41cb-42f9-92fa-e8fb421d8a10" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="457639052">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="4" />
-          <entry key="iml" value="3" />
-          <entry key="jason" value="1" />
-          <entry key="java" value="6" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="6" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1189" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1189" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-    </session>
-<<<<<<< HEAD
-    <session id="-871685705">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="12" />
-=======
-    <session id="-233031718">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-<<<<<<< HEAD
-          <entry key="JAVA" value="12" />
-=======
-          <entry key="JAVA" value="4" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-<<<<<<< HEAD
-          <entry key="java" value="664" />
-=======
-          <entry key="java" value="746" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-<<<<<<< HEAD
-          <entry key="JAVA" value="664" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-=======
-          <entry key="JAVA" value="746" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.lifecycle.project" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="636">
-              <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-            <state relative-caret-position="-765">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#207#226#1" expanded="true" />
+                <element signature="e#231#254#1" expanded="true" />
+                <element signature="e#327#350#0" expanded="true" />
+                <element signature="e#327#350#0" expanded="true" />
+                <element signature="e#637#680#1" expanded="true" />
+                <element signature="e#658#679#0" expanded="true" />
+                <element signature="e#689#759#1" expanded="true" />
+                <element signature="e#866#894#1" expanded="true" />
+                <element signature="e#1133#1164#1" expanded="true" />
+                <element signature="e#1530#1606#1" expanded="true" />
+                <element signature="e#1582#1604#0" expanded="true" />
+                <element signature="e#1615#1663#0" expanded="true" />
               </folding>
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/testing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/DataInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-              </folding>
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/UserProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/Post.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-              </folding>
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/PostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#162#163#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data.jason">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1020">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
-=======
-            <state relative-caret-position="1037">
-              <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/lec2/Main.java" />
-        <option value="$PROJECT_DIR$/src/data.jason" />
         <option value="$PROJECT_DIR$/src/simpleserver/Main.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/simpleserver/User.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/R.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/Response.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/Database.java" />
-=======
-        <option value="$PROJECT_DIR$/src/simpleserver/R.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/testing.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/Response.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/DataInterface.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/User.java" />
-        <option value="$PROJECT_DIR$/src/simpleserver/Post.java" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       </list>
     </option>
   </component>
@@ -303,73 +57,51 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-=======
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1041" />
-    <option name="y" value="-24" />
-    <option name="width" value="1440" />
-    <option name="height" value="801" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
+    <option name="x" value="71" />
+    <option name="y" value="22" />
+    <option name="width" value="1325" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="hw1-richard-finacom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw1-richard-finacom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw1-richard-finacom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw1-richard-finacom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw1-richard-finacom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw1-richard-finacom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleserver" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lecture2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537738640953" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsonDemo" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537596670081" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -384,20 +116,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SimpleServer">
-<<<<<<< HEAD
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonDemo.Main" />
-=======
-    <configuration name="Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleserver.Post" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="simpleserver.Main" />
       <module name="Lecture2" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -415,41 +139,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleserver.testing" />
-      <module name="Lecture2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SimpleServer" />
-      <item itemvalue="Application.testing" />
-      <item itemvalue="Application.Post" />
     </list>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
         <item itemvalue="Application.SimpleServer" />
-        <item itemvalue="Application.SimpleServer2" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-=======
-        <item itemvalue="Application.Post" />
-        <item itemvalue="Application.SimpleServer" />
-        <item itemvalue="Application.testing" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       </list>
     </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -459,119 +158,44 @@
       <option name="presentableId" value="Default" />
       <updated>1536013569490</updated>
       <workItem from="1536013572962" duration="196000" />
-      <workItem from="1536892659162" duration="8000" />
-      <workItem from="1536896086691" duration="484000" />
-      <workItem from="1536963515533" duration="789000" />
-      <workItem from="1536973503765" duration="936000" />
-      <workItem from="1536974552040" duration="2353000" />
-<<<<<<< HEAD
-      <workItem from="1537496674017" duration="254000" />
-      <workItem from="1537496974153" duration="5126000" />
-      <workItem from="1537737806327" duration="834000" />
-=======
-      <workItem from="1537586987053" duration="187000" />
-      <workItem from="1537587205043" duration="29000" />
-      <workItem from="1537587255789" duration="300000" />
-      <workItem from="1537587587914" duration="28000" />
-      <workItem from="1537587661009" duration="1940000" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="15195000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="72" y="23" width="1324" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
-=======
-    <option name="totallyTimeSpent" value="10723000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13603239" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
-=======
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32740214" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24029127" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -579,171 +203,30 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../jsonDemo/jsonDemo.iml" />
-    <entry file="file://$PROJECT_DIR$/../jsonDemo/src/jsonDemo/Main.java" />
-    <entry file="file://$PROJECT_DIR$/Lecture2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/R.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/data.jason" />
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer2.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/testing.class" />
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/testing.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7701" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#207#226#1" expanded="true" />
+            <element signature="e#231#254#1" expanded="true" />
+            <element signature="e#327#350#0" expanded="true" />
+            <element signature="e#327#350#0" expanded="true" />
+            <element signature="e#637#680#1" expanded="true" />
+            <element signature="e#658#679#0" expanded="true" />
+            <element signature="e#689#759#1" expanded="true" />
+            <element signature="e#866#894#1" expanded="true" />
+            <element signature="e#1133#1164#1" expanded="true" />
+            <element signature="e#1530#1606#1" expanded="true" />
+            <element signature="e#1582#1604#0" expanded="true" />
+            <element signature="e#1615#1663#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-=======
-        <state relative-caret-position="1037">
-          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data.jason">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1020">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/data.jason">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-=======
-        <state relative-caret-position="41">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/DataInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="636">
-          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/PostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/testing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/UserProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-=======
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
->>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
         </state>
       </provider>
     </entry>
@@ -805,7 +288,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -813,7 +295,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>com.google.code.gson:gson:2.8.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
