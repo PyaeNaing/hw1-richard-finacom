@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fcbeaf3-41cb-42f9-92fa-e8fb421d8a10" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer.class" beforeDir="false" />
@@ -10,6 +11,10 @@
       <change beforePath="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/simpleserver/User.java" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/simpleserver/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simpleserver/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simpleserver/User.java" afterDir="false" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,40 +27,40 @@
     <session id="457639052">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="4" />
           <entry key="iml" value="3" />
           <entry key="jason" value="1" />
-          <entry key="java" value="4" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="6" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="792" />
+          <entry key="java" value="1189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="792" />
+          <entry key="JAVA" value="1189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -63,24 +68,40 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+<<<<<<< HEAD
     <session id="-871685705">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="12" />
+=======
+    <session id="-233031718">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="12" />
+=======
+          <entry key="JAVA" value="4" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="java" value="664" />
+=======
+          <entry key="java" value="746" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="JAVA" value="664" />
         </counts>
       </usages-collector>
@@ -97,6 +118,16 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
+=======
+          <entry key="JAVA" value="746" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </session>
   </component>
   <component name="FileEditorManager">
@@ -104,6 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="636">
               <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
             </state>
@@ -124,33 +156,91 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+            <state relative-caret-position="-765">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/simpleserver/testing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/simpleserver/DataInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/simpleserver/UserProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/simpleserver/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="41">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+              </folding>
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/simpleserver/UserProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/simpleserver/Post.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+              </folding>
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/simpleserver/PostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
             </state>
           </provider>
         </entry>
@@ -158,8 +248,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data.jason">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1020">
               <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
+=======
+            <state relative-caret-position="1037">
+              <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
             </state>
           </provider>
         </entry>
@@ -182,12 +277,23 @@
         <option value="$PROJECT_DIR$/src/lec2/Main.java" />
         <option value="$PROJECT_DIR$/src/data.jason" />
         <option value="$PROJECT_DIR$/src/simpleserver/Main.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/simpleserver/User.java" />
         <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
         <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" />
         <option value="$PROJECT_DIR$/src/simpleserver/R.java" />
         <option value="$PROJECT_DIR$/src/simpleserver/Response.java" />
         <option value="$PROJECT_DIR$/src/simpleserver/Database.java" />
+=======
+        <option value="$PROJECT_DIR$/src/simpleserver/R.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/testing.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/SimpleServer.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/Response.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/DataInterface.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/User.java" />
+        <option value="$PROJECT_DIR$/src/simpleserver/Post.java" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       </list>
     </option>
   </component>
@@ -197,10 +303,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1041" />
+    <option name="y" value="-24" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -229,8 +343,13 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,12 +358,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537738640953" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jsonDemo" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537596670081" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,24 +384,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SimpleServer">
+<<<<<<< HEAD
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jsonDemo.Main" />
+=======
+    <configuration name="Post" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleserver.Post" />
+      <module name="Lecture2" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jsonDemo.*" />
+          <option name="PATTERN" value="simpleserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="simpleserver.Main" />
-      <module name="Lecture2" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,8 +415,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleServer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleserver.SimpleServer2" />
+    <configuration name="testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simpleserver.testing" />
       <module name="Lecture2" />
       <extension name="coverage">
         <pattern>
@@ -308,17 +429,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SimpleServer" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.SimpleServer2" />
+      <item itemvalue="Application.testing" />
+      <item itemvalue="Application.Post" />
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.SimpleServer" />
         <item itemvalue="Application.SimpleServer2" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+=======
+        <item itemvalue="Application.Post" />
+        <item itemvalue="Application.SimpleServer" />
+        <item itemvalue="Application.testing" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       </list>
     </recent_temporary>
   </component>
@@ -338,13 +464,22 @@
       <workItem from="1536963515533" duration="789000" />
       <workItem from="1536973503765" duration="936000" />
       <workItem from="1536974552040" duration="2353000" />
+<<<<<<< HEAD
       <workItem from="1537496674017" duration="254000" />
       <workItem from="1537496974153" duration="5126000" />
       <workItem from="1537737806327" duration="834000" />
+=======
+      <workItem from="1537586987053" duration="187000" />
+      <workItem from="1537587205043" duration="29000" />
+      <workItem from="1537587255789" duration="300000" />
+      <workItem from="1537587587914" duration="28000" />
+      <workItem from="1537587661009" duration="1940000" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15195000" />
   </component>
   <component name="TodoView">
@@ -361,15 +496,30 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
+=======
+    <option name="totallyTimeSpent" value="10723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13603239" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32740214" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,6 +530,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -441,16 +592,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/R.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/data.jason" />
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer2.class" />
     <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/SimpleServer.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Lecture2/simpleserver/testing.class" />
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/testing.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="-7701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer2.java" />
     <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
@@ -460,14 +629,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+=======
+        <state relative-caret-position="1037">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data.jason">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1020">
           <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
         </state>
@@ -488,12 +674,24 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1006#1007#0" expanded="true" />
             <element signature="e#1040#1041#0" expanded="true" />
+=======
+        <state relative-caret-position="41">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/simpleserver/SimpleServer.java">
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/DataInterface.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="636">
           <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
         </state>
@@ -531,6 +729,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+=======
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleserver/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
         </state>
       </provider>
     </entry>

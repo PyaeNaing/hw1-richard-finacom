@@ -17,7 +17,11 @@ class SimpleServer {
             while (true) {
 
                 String parceString[];
+<<<<<<< HEAD
                 String request = null;
+=======
+                String resource = null;
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
                 // keeps listening for new clients, one at a time
                 try {
                     dong = ding.accept(); // waits for client here
@@ -35,10 +39,15 @@ class SimpleServer {
 
                     System.out.println("----------REQUEST START---------");
 
+<<<<<<< HEAD
                     //Cut string here
                     parceString = line.split(" ");
                     //Taking only the necessary URL;
                     request = parceString[1].substring(1);
+=======
+                    parceString = line.split(" ");
+                    resource = parceString[1].substring(1);
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
 
                     System.out.println(line);
                     // read only headers
@@ -69,11 +78,18 @@ class SimpleServer {
                 writer.println("");
 
                 // Body of our response
+<<<<<<< HEAD
                 Processor response = new Processor(request);
                 if (request.equals("hello"))
                     writer.println("<h1>Hello World</h1>");
                 else
                 writer.println("<h1>Try sending \"hello\" request </h1>");
+=======
+                if (resource.equals("hello"))
+                    writer.println("<h1>Hello World</h1>");
+                else
+                writer.println("<h1>Some cool response!</h1>");
+>>>>>>> a5eb7a9efcef76bdbd8628791670e95f52c57761
 
                 dong.close();
             }
