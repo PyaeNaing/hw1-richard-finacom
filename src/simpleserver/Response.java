@@ -3,9 +3,10 @@ package simpleserver;
 import com.google.gson.*;
 
 public class Response {
-   private String status;
+    private String status;
     private int entries;
     private DataInterface[] data;
+    User[] users;
 
     String convertToJson() {
         return new Gson().toJson(this);
@@ -30,5 +31,9 @@ public class Response {
             this.status = "ERROR";
         }
 
+    }
+
+    public void setUsers(User[] users){
+        this.users = users;
     }
 }
