@@ -1,9 +1,6 @@
-#Folders
 out/
 .idea/
-
-
-#files
 testing.java
 data.jason
 .idea/workspace.xml
+workspace.xml

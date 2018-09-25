@@ -3,7 +3,6 @@ package simpleserver;
 public class Request {
 
     private String endpoint;
-    private String request;
     private int id = -1;
     private int length = 0;
     private boolean valid = false;
@@ -25,14 +24,16 @@ public class Request {
         try {
             String[] Split = request.split("\\?");
             endpoint = Split[0];
-
             if (endpoint.equals("user") || endpoint.equals("posts")) {
                 Split = Split[1].split("&");
                 if (Split.length == 1) {
                     Split = Split[0].split("=");
-                    if (Split[0].equals("userid") || Split[0].equals("postid")) {
+                    if (Split[0].equals("userid") && endpoint.equals("user")||
+                            Split[0].equals("postid") && endpoint.equals("posts")){
                         id = Integer.valueOf(Split[1]);
                     }
+                    else
+                        throw new Exception();
                 } else if (Split.length == 2) {
                     String[] temp1, temp2;
                     temp1 = Split[0].split("=");
@@ -49,7 +50,7 @@ public class Request {
             }
             else
                 throw new Exception();
-
+            valid = true;
         }catch(Exception e)
         {
             valid = false;
