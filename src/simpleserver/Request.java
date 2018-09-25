@@ -8,7 +8,6 @@ public class Request {
     private int length = 0;
     private boolean valid = false;
     private boolean returnall = false;
-    public String errorr = "";
 
     public Request(String request)
     {
@@ -53,8 +52,6 @@ public class Request {
 
         }catch(Exception e)
         {
-
-            errorr = e.toString();
             valid = false;
         }
     }
@@ -76,9 +73,6 @@ public class Request {
     {
         return this.valid;
     }
-    public boolean getReturnall()
-    {
-        return this.returnall;
-    }
-}
+    public boolean getReturnall(){return this.returnall; }
 
+}

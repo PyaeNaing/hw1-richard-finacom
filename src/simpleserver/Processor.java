@@ -22,8 +22,3 @@ class ProcessorFactory {
     }
 }
 
-class response
-{
-
-}
-
