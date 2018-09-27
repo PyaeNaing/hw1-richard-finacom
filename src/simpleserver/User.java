@@ -25,6 +25,11 @@ class User extends Processor implements DataInterface {
     public User(String request) {
         super(request);
     }
+
+    public String process() {
+        return null;
+    }
+
     public int getId() {
         return userid;
     }

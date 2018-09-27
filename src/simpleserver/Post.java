@@ -22,6 +22,10 @@ public class Post extends Processor implements DataInterface{
         super(request);
     }
 
+    public String process() {
+        return null;
+    }
+
     public int getId() {
         return postid;
     }

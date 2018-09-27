@@ -6,4 +6,6 @@ interface DataInterface {
     String getData();
 
     String convertToJson();
+
+    String process();
 }

@@ -1,11 +1,12 @@
 package simpleserver;
 
 import com.google.gson.*;
+import java.util.*;
 
 public class Response {
     private String status;
     private int entries;
-    private Processor[] data;
+    private List<Processor> data;
     private User[] users;
 
     public Response() {
@@ -13,7 +14,7 @@ public class Response {
         this.entries = -1;
     }
 
-    public Response(String nStatus, int nEntries, Processor[] nData) {
+    public Response(String nStatus, int nEntries, List<Processor> nData) {
         this.status = nStatus;
         this.entries = nEntries;
         this.data = nData;
@@ -31,7 +32,7 @@ public class Response {
         this.entries = newEntries;
     }
 
-    public void setData(Processor[] newData) {
+    public void setData(List<Processor> newData) {
         this.data = newData;
     }
 
