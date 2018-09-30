@@ -2,7 +2,7 @@ package simpleserver;
 
 import com.google.gson.Gson;
 
-public class PostProcess extends Processor implements DataInterface{
+public class PostProcess extends Processor {
     private int postid;
     private int userid;
     private String post;

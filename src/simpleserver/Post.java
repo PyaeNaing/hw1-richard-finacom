@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Post extends Processor implements DataInterface{
+public class Post extends Processor {
     private int userid;
     private int postid;
     private String data;

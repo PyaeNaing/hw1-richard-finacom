@@ -11,17 +11,10 @@ import java.io.FileReader;
 public class Database {
     private static Database instance = null;
 
-    public static void main(String[] args) {
-
-        //getUser();
-        getPost();
-
-    }
-
     private Database () {
         getUser();
         getPost();
-    };
+    }
 
     public static void getUser() {
         Gson gson = new Gson();
@@ -65,9 +58,9 @@ public class Database {
             Response response = new Response();
             response.setPosts(posts);
 
-            String bruh = gson.toJson(Post.getPost(1));
+            //String bruh = gson.toJson(Post.getPost(1));
 
-            System.out.println(bruh);
+            //System.out.println(bruh);
         } catch (FileNotFoundException e) {
         e.printStackTrace();
     }

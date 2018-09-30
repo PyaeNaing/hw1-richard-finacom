@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-class User extends Processor implements DataInterface {
+class User extends Processor {
     private int userid;
     private String username;
     private static Map<Integer, User> useridDict = new HashMap<>();

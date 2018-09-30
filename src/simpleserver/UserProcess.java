@@ -1,9 +1,8 @@
 package simpleserver;
 
 import com.google.gson.Gson;
-import java.util.*;
 
-public class UserProcess extends Processor implements DataInterface{
+public class UserProcess extends Processor {
 
     private int userid;
     private String username;

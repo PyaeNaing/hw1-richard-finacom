@@ -7,11 +7,16 @@ import java.util.ArrayList;
 public class Processor {
 
     public Processor(){}
+    int getId(){return 0;}
 
+    String getData() {return null;}
+
+    String convertToJson() {return null;}
+
+    String response() {return null;}
 
     public static String startResponse(Request request) {
         Response ret = new Response();
-        DataInterface process;
         if(request.getValid()) {
             if (request.getLength() != -1) {
 
@@ -32,6 +37,7 @@ public class Processor {
             return ret.convertToJson();
         }
     }
+
 
     public static void test(String s, Database w) {
         Gson x = new Gson();
