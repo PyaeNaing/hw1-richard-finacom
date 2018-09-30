@@ -1,5 +1,9 @@
 package simpleserver;
 
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+
 public class Processor {
 
     public Processor(){}
@@ -7,6 +11,8 @@ public class Processor {
     public Processor(String request) {
         ProcessorFactory.makeProcessor(request);
     }
+
+
 
     public static String startResponse(Request request) {
         Response ret = new Response();
@@ -22,6 +28,7 @@ public class Processor {
                     ret.setEntries(1);
                 } else {
                     //add all user into an arrayList
+
                 }
             }
             return ret.convertToJson();
@@ -29,6 +36,16 @@ public class Processor {
             ret = new Response("Error", 0, null);
             return ret.convertToJson();
         }
+    }
+
+    public static void test(String s, Database w) {
+        Gson x = new Gson();
+        System.out.println(x.toJson(User.getAllUser()));
+        ArrayList<UserProcess> v = new ArrayList<UserProcess>();
+        for (int i = 0; i < User.getAllUser().size(); i++) {
+            v.add(new UserProcess(User.getAllUser().get(i).getId(), User.getAllUser().get(i).getData()));
+        }
+        System.out.println(x.toJson(v));
     }
 }
 
