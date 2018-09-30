@@ -27,10 +27,6 @@ public class Post extends Processor implements DataInterface{
         postidDict.put(postid, this);
     }
 
-    public Post(String request) {
-        super(request);
-    }
-
     public String process() {
         return null;
     }

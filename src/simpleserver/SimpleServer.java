@@ -69,7 +69,6 @@ class SimpleServer {
                 writer.println("");
 
                 // Body of our response
-                Processor response = new Processor(request);
                 if (request.equals("hello"))
                     writer.println("<h1>Hello World</h1>");
                 else

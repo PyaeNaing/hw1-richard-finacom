@@ -23,10 +23,6 @@ class User extends Processor implements DataInterface {
         allUsers.add(this);
     }
 
-    public User(String request) {
-        super(request);
-    }
-
     public String process() {
         return null;
     }

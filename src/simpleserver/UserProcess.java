@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import java.util.*;
 
 public class UserProcess extends Processor implements DataInterface{
+
     private int userid;
     private String username;
 
@@ -33,6 +34,8 @@ public class UserProcess extends Processor implements DataInterface{
     public String convertToJson() {
         return new Gson().toJson(this);
     }
+
+    public static Response response() {return null;}
 
 
 }

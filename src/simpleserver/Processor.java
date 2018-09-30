@@ -8,11 +8,6 @@ public class Processor {
 
     public Processor(){}
 
-    public Processor(String request) {
-        ProcessorFactory.makeProcessor(request);
-    }
-
-
 
     public static String startResponse(Request request) {
         Response ret = new Response();
@@ -51,14 +46,17 @@ public class Processor {
 
 class ProcessorFactory {
 
-    public static Processor makeProcessor(String request) {
+    public static Response makeProcessor(String request, Request x, Database a) {
+        if(!(x.getValid())) {
+            return new Response("Error",0, null);
+        }
         switch (request) {
             case "users":
-                return new User(request);
+                return UserProcess.response();
             case "posts":
-                return new Post(request);
+                return PostProcess.response();
         }
-        return null;
+        return  null;
     }
 }
 

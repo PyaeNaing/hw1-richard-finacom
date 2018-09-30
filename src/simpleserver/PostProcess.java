@@ -18,10 +18,6 @@ public class PostProcess extends Processor implements DataInterface{
         this.userid = uID;
     }
 
-    public PostProcess(String request) {
-        super(request);
-    }
-
     public String process() {
         return null;
     }
@@ -39,5 +35,7 @@ public class PostProcess extends Processor implements DataInterface{
     public String convertToJson() {
         return new Gson().toJson(this);
     }
+
+    public static Response response() {return null;}
 
 }
