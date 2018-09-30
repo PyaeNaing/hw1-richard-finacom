@@ -8,6 +8,7 @@ public class Response {
     private int entries;
     private List<Processor> data;
     private User[] users;
+    private Post[] posts;
 
     public Response() {
         this.status = null;
@@ -47,5 +48,9 @@ public class Response {
 
     public void setUsers(User[] users){
         this.users = users;
+    }
+
+    public void setPosts(Post[] posts){
+        this.posts = posts;
     }
 }

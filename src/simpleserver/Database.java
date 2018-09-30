@@ -13,10 +13,15 @@ public class Database {
 
     public static void main(String[] args) {
 
-        getUser();
+        //getUser();
+        getPost();
 
     }
 
+    private Database () {
+        getUser();
+        getPost();
+    };
 
     public static void getUser() {
         Gson gson = new Gson();
@@ -42,6 +47,30 @@ public class Database {
             e.printStackTrace();
         }
 
+    }
+
+    public static void getPost() {
+        Gson gson = new Gson();
+        BufferedReader br;
+        try {
+            br = new BufferedReader(new FileReader("src/data.jason"));
+            JsonParser jsonParser = new JsonParser();
+            JsonObject obj = jsonParser.parse(br).getAsJsonObject();
+
+            Post[] posts;
+            posts = gson.fromJson(obj.get("posts"), Post[].class);
+            Post.loadAll();
+
+
+            Response response = new Response();
+            response.setPosts(posts);
+
+            String bruh = gson.toJson(Post.getPost(1));
+
+            System.out.println(bruh);
+        } catch (FileNotFoundException e) {
+        e.printStackTrace();
+    }
     }
 
     public static Database getInstance() {
