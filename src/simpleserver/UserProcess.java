@@ -7,6 +7,7 @@ public class UserProcess extends Processor implements DataInterface{
     private int userid;
     private String username;
 
+
     public UserProcess(){
         this.userid = -1;
         this.username = null;
