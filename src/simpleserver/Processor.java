@@ -52,15 +52,15 @@ public class Processor {
 
 class ProcessorFactory {
 
-    public static Response makeProcessor(String request, Request x, Database a) {
+    public static String makeProcessor(String request, Request x, Database a) {
         if(!(x.getValid())) {
-            return new Response("Error",0, null);
+            return (new Response("Error",0, null)).convertToJson();
         }
         switch (request) {
             case "users":
-                return UserProcess.response();
+                return UserProcess.response().convertToJson();
             case "posts":
-                return PostProcess.response();
+                return PostProcess.response().convertToJson();
         }
         return  null;
     }
