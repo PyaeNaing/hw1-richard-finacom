@@ -17,7 +17,9 @@ public class Request {
     {
         if(request.equals("user"))
         {
-            returnall = valid = true;
+            this.endpoint = "user";
+            this.id = 0;
+            this.returnall = valid = true;
             return;
         }
 

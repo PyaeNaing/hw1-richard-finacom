@@ -16,6 +16,8 @@ class SimpleServer {
             ding = new ServerSocket(1299);
             System.out.println("Opened socket " + 1299);
             Database database = Database.getInstance();
+            Request rq = null;
+            String printer = null;
             while (true) {
 
                 String parceString[];
@@ -41,6 +43,8 @@ class SimpleServer {
                     parceString = line.split(" ");
                     //Taking only the necessary URL;
                     request = parceString[1].substring(1);
+                    rq = new Request(request);
+                    printer = ProcessorFactory.makeProcessor(rq, database);
 
                     System.out.println(line);
                     // read only headers
@@ -71,8 +75,7 @@ class SimpleServer {
                 writer.println("");
 
                 // Body of our response
-                Response r = new Response(request);
-
+                    writer.println(printer);
                 if (request.equals("hello"))
                     writer.println("<h1>Hello World</h1>");
                 else

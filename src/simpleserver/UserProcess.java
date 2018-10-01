@@ -39,7 +39,7 @@ public class UserProcess extends Processor {
     public static Response response(Request rq, Database data) {
         List<Processor> userP = new ArrayList<Processor>();
         ArrayList<User> users  = User.getAllUser();
-        if(rq.getID() < 0 || rq.getID() > users.size()) {
+        if(rq.getID() < 0 || rq.getID() >= users.size()) {
             return new Response("Error");
         }
         if (rq.getReturnall()) {
