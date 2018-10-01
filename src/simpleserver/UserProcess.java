@@ -48,7 +48,6 @@ public class UserProcess extends Processor {
             userP.add(new UserProcess(users.get(rq.getID()).getId(),users.get(rq.getID()).getData()));
             return new Response("OK", 1, userP);
         }
-
     }
 
 

@@ -4,7 +4,7 @@ public class Request {
 
     private String endpoint;
     private int id = -1;
-    private int length = 0;
+    private int length = -1;
     private boolean valid = false;
     private boolean returnall = false;
 
