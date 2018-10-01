@@ -15,7 +15,7 @@ public class testing {
         Request r = new Request("posts?postid=7&maxlength=14");
         Processor a = new Processor();
         a.response("posts?postid=7",b);
-        System.out.print(a.response("posts?postid=7&maxlength=4",b).convertToJson());
+        System.out.print(a.response("user",b));
         //System.out.print(a.response("user?userid=7",b).convertToJson());
 
         /*

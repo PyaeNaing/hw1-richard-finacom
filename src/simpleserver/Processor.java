@@ -10,25 +10,24 @@ public class Processor {
 
     public String convertToJson() {return null;}
 
-    public static Response response(String request, Database data)
+    public static String response(String request, Database data)
     {
-        ProcessorFactory process = new ProcessorFactory();
         Request r = new Request(request);
-        return process.makeProcessor(r, data);
+        return ProcessorFactory.makeProcessor(r, data);
     }
 }
 
 class ProcessorFactory {
 
-    public static Response makeProcessor(Request rq, Database data) {
+    public static String makeProcessor(Request rq, Database data) {
         if(!(rq.getValid())) {
-            return (new Response("Error"));
+            return (new Response("Error")).convertToJson();
         }
         switch (rq.getEndpoint()) {
-            case "users":
-                return UserProcess.response(rq, data);
+            case "user":
+                return UserProcess.response(rq, data).convertToJson();
             case "posts":
-                return PostProcess.response(rq, data);
+                return PostProcess.response(rq, data).convertToJson();
         }
         return  null;
     }
