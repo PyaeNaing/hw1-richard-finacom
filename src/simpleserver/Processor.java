@@ -1,33 +1,34 @@
 package simpleserver;
 
-import com.google.gson.Gson;
-
-import java.util.ArrayList;
-
 public class Processor {
 
     public Processor(){}
+
     public int getId(){return 0;}
 
     public String getData() {return null;}
 
     public String convertToJson() {return null;}
 
-    public static Response response(Request rq, Database data) {return null;}
-
+    public static Response response(String request, Database data)
+    {
+        ProcessorFactory process = new ProcessorFactory();
+        Request r = new Request(request);
+        return process.makeProcessor(r, data);
+    }
 }
 
 class ProcessorFactory {
 
-    public static String makeProcessor(String request, Request rq, Database data) {
+    public static Response makeProcessor(Request rq, Database data) {
         if(!(rq.getValid())) {
-            return (new Response("Error")).convertToJson();
+            return (new Response("Error"));
         }
-        switch (request) {
+        switch (rq.getEndpoint()) {
             case "users":
-                return UserProcess.response(rq, data).convertToJson();
+                return UserProcess.response(rq, data);
             case "posts":
-                return PostProcess.response(rq, data).convertToJson();
+                return PostProcess.response(rq, data);
         }
         return  null;
     }

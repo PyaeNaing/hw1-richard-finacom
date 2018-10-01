@@ -9,12 +9,16 @@ public class testing {
     {
         Gson gson = new Gson();
         Database b = Database.getInstance();
-        String s = "1234567890";
-        System.out.print(s.substring(0,7));
         //System.out.println(gson.toJson(Post.getPost(1).getData()));
-        /*
-        System.out.println((new Response("Error")).convertToJson());
+
+        //System.out.println((new Response("Error")).convertToJson());
         Request r = new Request("posts?postid=7&maxlength=14");
+        Processor a = new Processor();
+        a.response("posts?postid=7",b);
+        System.out.print(a.response("posts?postid=7&maxlength=4",b).convertToJson());
+        //System.out.print(a.response("user?userid=7",b).convertToJson());
+
+        /*
 
             if (r.getValid())
             {

@@ -48,7 +48,6 @@ public class Response {
         } else {
             this.status = "ERROR";
         }
-
     }
 
     public void setUsers(User[] users){
