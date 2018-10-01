@@ -5,8 +5,7 @@ import com.google.gson.Gson;
 public class testing {
     public static void main(String args[])
     {
-        DataInterface user1 = new User(0,"JJ");
-        System.out.println(new Gson().toJson(user1));
+        System.out.println((new Response("Error")).convertToJson());
        Request r = new Request("posts?postid=7&maxlength=14");
 
             if (r.getValid())

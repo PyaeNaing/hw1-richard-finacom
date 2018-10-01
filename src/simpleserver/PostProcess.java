@@ -36,6 +36,6 @@ public class PostProcess extends Processor {
         return new Gson().toJson(this);
     }
 
-    public static Response response() {return null;}
+    public static Response response(Request rq, Database data) {return null;}
 
 }

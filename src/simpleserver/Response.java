@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Response {
     private String status;
-    private int entries;
+    private Integer entries;
     private List<Processor> data;
     private User[] users;
     private Post[] posts;
@@ -13,6 +13,11 @@ public class Response {
     public Response() {
         this.status = null;
         this.entries = -1;
+    }
+
+    public Response(String stat) {
+        this.status = stat;
+        this.entries = null;
     }
 
     public Response(String nStatus, int nEntries, List<Processor> nData) {
