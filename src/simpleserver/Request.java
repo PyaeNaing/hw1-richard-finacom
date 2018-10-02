@@ -7,6 +7,7 @@ public class Request {
     private int length = -1;
     private boolean valid = false;
     private boolean returnall = false;
+    private boolean onlypost = false;
 
     public Request(String request)
     {
@@ -32,6 +33,7 @@ public class Request {
                     Split = Split[0].split("=");
                     if (Split[0].equals("userid") && endpoint.equals("user")||
                             Split[0].equals("postid") && endpoint.equals("posts")){
+                        this.onlypost = true;
                         id = Integer.valueOf(Split[1]);
                     }
                     else
@@ -78,5 +80,5 @@ public class Request {
         return this.valid;
     }
     public boolean getReturnall(){return this.returnall; }
-
+    public boolean getOnlypost() { return this.onlypost; }
 }
