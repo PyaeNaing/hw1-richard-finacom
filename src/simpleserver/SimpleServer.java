@@ -16,6 +16,11 @@ class SimpleServer {
             ding = new ServerSocket(1299);
             System.out.println("Opened socket " + 1299);
             Database database = Database.getInstance();
+<<<<<<< HEAD
+=======
+            Request rq = null;
+            String printer = null;
+>>>>>>> 957be8ba7c65061c8464317f1e8f7af9a496c2ee
             while (true) {
 
                 String parceString[];
@@ -41,6 +46,8 @@ class SimpleServer {
                     parceString = line.split(" ");
                     //Taking only the necessary URL;
                     request = parceString[1].substring(1);
+                    rq = new Request(request);
+                    printer = ProcessorFactory.makeProcessor(rq, database);
 
                     System.out.println(line);
                     // read only headers
@@ -67,12 +74,24 @@ class SimpleServer {
                 writer.println("HTTP/1.1 200 OK");
                 writer.println("Server: TEST");
                 writer.println("Connection: close");
+<<<<<<< HEAD
                 writer.println("Content-type: application/json");
                 writer.println("");
 
                 // Body of our response
                 Processor r = new Processor();
                 writer.println(r.response(request,database));
+=======
+                writer.println("Content-type: json/html");
+                writer.println("");
+
+                // Body of our response
+                    writer.println(printer);
+                if (request.equals("hello"))
+                    writer.println("<h1>Hello World</h1>");
+                else
+                writer.println("<h1>Try sending \"hello\" request </h1>");
+>>>>>>> 957be8ba7c65061c8464317f1e8f7af9a496c2ee
 
                 dong.close();
             }
