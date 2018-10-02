@@ -52,6 +52,7 @@ public class Request {
             }
             else
                 throw new Exception();
+//            if(length < 0){ throw new Exception(); }
             valid = true;
         }catch(Exception e)
         {

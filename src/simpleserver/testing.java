@@ -3,12 +3,17 @@ package simpleserver;
 import com.google.gson.Gson;
 
 import javax.xml.crypto.Data;
+import java.sql.SQLOutput;
 
 public class testing {
     public static void main(String args[])
     {
         Gson gson = new Gson();
         Database b = Database.getInstance();
+        String g = "-12";
+        int c = Integer.valueOf(g);
+        System.out.println(c);
+
         //System.out.println(gson.toJson(Post.getPost(1).getData()));
 
         //System.out.println((new Response("Error")).convertToJson());
@@ -16,7 +21,7 @@ public class testing {
         Processor a = new Processor();
         a.response("posts?postid=7",b);
         //System.out.print(a.response("user",b));
-        System.out.print(a.response("user?userid=7",b));
+        //System.out.print(a.response("user?userid=7",b));
 
         /*
 

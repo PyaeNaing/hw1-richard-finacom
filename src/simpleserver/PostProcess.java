@@ -45,10 +45,11 @@ public class PostProcess extends Processor {
         List<Processor> postP = new ArrayList<Processor>();
         Post post = Post.getPost(rq.getID());
 
-        if(rq.getLength() == -1)
+        if(rq.getLength() == -1 || rq.getLength() > post.getData().length())
         {
             postP.add(new PostProcess(post.getUserID(),post.getId(),post.getData()));
         }
+
         else
         {
             String cut = post.getData().substring(0,rq.getLength());

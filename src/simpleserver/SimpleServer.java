@@ -72,8 +72,12 @@ class SimpleServer {
 
                 // Body of our response
                 Processor r = new Processor();
-                writer.println(r.response(request,database));
-
+                try {
+                    writer.println(r.response(request, database));
+                }catch(Exception e)
+                {
+                    writer.println(r.badRequest());
+                }
                 dong.close();
             }
         } catch (IOException e) {
