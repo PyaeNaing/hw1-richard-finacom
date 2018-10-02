@@ -6,19 +6,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PostProcess extends Processor {
-    private int postid;
     private int userid;
-    private String post;
+    private int postid;
+    private String data;
 
 
     public PostProcess() {
-        this.post = "";
+        this.data = "";
         this.postid = -1;
         this.userid = -1;
     }
     public PostProcess(int uID, int gPostId, String gPost){
         this.postid = gPostId;
-        this.post = gPost;
+        this.data = gPost;
         this.userid = uID;
     }
 
@@ -33,7 +33,7 @@ public class PostProcess extends Processor {
     public int getUserID() {return userid;}
 
     public String getData() {
-        return post;
+        return data;
     }
 
     public String convertToJson() {

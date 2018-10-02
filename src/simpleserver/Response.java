@@ -4,9 +4,9 @@ import com.google.gson.*;
 import java.util.*;
 
 public class Response {
+    private List<Processor> data;
     private String status;
     private Integer entries;
-    private List<Processor> data;
     private User[] users;
     private Post[] posts;
 
