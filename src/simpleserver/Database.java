@@ -54,13 +54,9 @@ public class Database {
             posts = gson.fromJson(obj.get("posts"), Post[].class);
             Post.loadAll();
 
-
             Response response = new Response();
             response.setPosts(posts);
 
-            //String bruh = gson.toJson(Post.getPost(1));
-
-            //System.out.println(bruh);
         } catch (FileNotFoundException e) {
         e.printStackTrace();
     }

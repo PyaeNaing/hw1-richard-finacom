@@ -1,5 +1,6 @@
 package simpleserver;
 
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -14,6 +15,7 @@ class SimpleServer {
         try {
             ding = new ServerSocket(1299);
             System.out.println("Opened socket " + 1299);
+            Database database = Database.getInstance();
             while (true) {
 
                 String parceString[];
@@ -65,14 +67,12 @@ class SimpleServer {
                 writer.println("HTTP/1.1 200 OK");
                 writer.println("Server: TEST");
                 writer.println("Connection: close");
-                writer.println("Content-type: text/html");
+                writer.println("Content-type: application/json");
                 writer.println("");
 
                 // Body of our response
-                if (request.equals("hello"))
-                    writer.println("<h1>Hello World</h1>");
-                else
-                writer.println("<h1>Try sending \"hello\" request </h1>");
+                Processor r = new Processor();
+                writer.println(r.response(request,database));
 
                 dong.close();
             }

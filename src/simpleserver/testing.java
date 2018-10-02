@@ -2,12 +2,23 @@ package simpleserver;
 
 import com.google.gson.Gson;
 
+import javax.xml.crypto.Data;
+
 public class testing {
     public static void main(String args[])
     {
-        DataInterface user1 = new User(0,"JJ");
-        System.out.println(new Gson().toJson(user1));
-       Request r = new Request("posts?postid=7&maxlength=14");
+        Gson gson = new Gson();
+        Database b = Database.getInstance();
+        //System.out.println(gson.toJson(Post.getPost(1).getData()));
+
+        //System.out.println((new Response("Error")).convertToJson());
+        Request r = new Request("posts?postid=7&maxlength=14");
+        Processor a = new Processor();
+        a.response("posts?postid=7",b);
+        //System.out.print(a.response("user",b));
+        System.out.print(a.response("user?userid=7",b));
+
+        /*
 
             if (r.getValid())
             {
