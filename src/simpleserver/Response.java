@@ -24,6 +24,7 @@ public class Response {
         this.status = nStatus;
         this.entries = nEntries;
         this.data = nData;
+
     }
 
     String convertToJson() {

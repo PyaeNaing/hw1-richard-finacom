@@ -45,15 +45,14 @@ public class PostProcess extends Processor {
         List<Processor> postP = new ArrayList<Processor>();
         Post post = Post.getPost(rq.getID());
 
-        if(rq.getOnlypost() || rq.getLength() > post.getData().length())
+        if(rq.getOnlypost() || rq.getLength() >= post.getData().length())
         {
             postP.add(new PostProcess(post.getUserID(),post.getId(),post.getData()));
         }
 
         else
         {
-            String cut = post.getData().substring(0,rq.getLength());
-            postP.add(new PostProcess(post.getUserID(),post.getId(),cut));
+            return new Response("OK", 0, postP);
         }
             return new Response("OK", 1, postP);
     }
