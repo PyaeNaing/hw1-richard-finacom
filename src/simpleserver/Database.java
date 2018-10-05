@@ -2,7 +2,7 @@ package simpleserver;
 
 
 import com.google.gson.*;
-import java.util.ArrayList;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -12,11 +12,11 @@ public class Database {
     private static Database instance = null;
 
     private Database () {
-        getUser();
-        getPost();
+        loadUser();
+        loadPost();
     }
 
-    public static void getUser() {
+    public static void loadUser() {
         Gson gson = new Gson();
         BufferedReader br;
         try {
@@ -30,7 +30,7 @@ public class Database {
 
             Response response = new Response();
             response.setUsers(users);
-            //String jsonString = gson.toJson(User.getUser(6));
+            //String jsonString = gson.toJson(User.loadUser(6));
             //String jjCool = gson.toJson(User.getAllUser());
 
             //System.out.println(jsonString);
@@ -42,7 +42,7 @@ public class Database {
 
     }
 
-    public static void getPost() {
+    public static void loadPost() {
         Gson gson = new Gson();
         BufferedReader br;
         try {
